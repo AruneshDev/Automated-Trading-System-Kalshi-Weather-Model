@@ -2,12 +2,17 @@
 # CS-542 Principles of Machine Learning - Common Task Report
 
 ### Submitted by: Arunesh Kumar Lal (U26502933)
+![Fianl Day Automated Trades](Screenshots/AllTrades_Final_Today_3rdApril.png)
+
+![Prediction Page](Screenshots/Trade_Page.png)
+
+
 
 ## Project Overview
 
 The goal of this project was to predict daily climate events in four major cities using machine learning models. 
 The project was structured into three stages over three weeks, as outlined below:
-
+Screenshot[Common Task Docs\Screenshot 2024-03-19 081218.png]
 ### Week 1: Manual Trading on Kalshi Platform
 - Utilized online data sources to predict the maximum temperature in four cities: NYC, Miami, Austin, and Chicago.
 - Placed trades on the Kalshi demo platform based on predictions from data sources.
@@ -105,6 +110,25 @@ The project was a great learning experience. I think there is more scope in weat
 #### Loss Function Used:
 Mean Squared Error 
 Please refer file : MSE of Settled Trades.ipynb
+## Final Outputs
+
+### Temperature Predictions vs Actuals
+
+#### Austin
+![Austin Prediction](Screenshots/Austin_MSE.png)
+- Overall Mean Square Error: 3.4
+
+#### Chicago
+![Chicago Prediction](Screenshots/Chicago_MSE.png)
+- Overall Mean Square Error: 27.4
+
+#### Miami
+![Miami Prediction](Screenshots/Miami_MSE.png)
+- Overall Mean Square Error: 7.6
+
+#### New York City (NYC)
+![NYC Prediction](Screenshots/NYC_MSE.png)
+- Overall Mean Square Error: 31.6
 
 ## How to Run
 1. Clone the repository.
