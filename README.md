@@ -12,7 +12,7 @@
 
 The goal of this project was to predict daily climate events in four major cities using machine learning models. 
 The project was structured into three stages over three weeks, as outlined below:
-Screenshot[Common Task Docs\Screenshot 2024-03-19 081218.png]
+
 ### Week 1: Manual Trading on Kalshi Platform
 - Utilized online data sources to predict the maximum temperature in four cities: NYC, Miami, Austin, and Chicago.
 - Placed trades on the Kalshi demo platform based on predictions from data sources.
