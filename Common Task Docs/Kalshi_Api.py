@@ -81,9 +81,9 @@ def get_google_access_token(authorization_code: str, client_id: str, client_secr
 
 
 # Example usage:
-client_id = "aklal@bu.edu"
-client_secret = "Sachin@007"
-redirect_uri = "https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=798145346451-8ju0pr7kp30vt5fokerbsnnq4sl09r38.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fdemo.kalshi.co%2Foauth%2Fgoogle%2Fcallback&response_type=code&scope=openid%20profile%20email&state=%7B%22request_mfa%22%3A%22false%22%2C%22security_token%22%3A%228v5nlafky04kovzmf6qnn%22%2C%22utm_landing%22%3A%22%2F%22%7D&service=lso&o2v=1&theme=mn&ddm=0&flowName=GeneralOAuthFlow"
+client_id = "your_client_id"
+client_secret = "secret"
+redirect_uri = "https://yourapp.com/oauth2callback"
 # authorization_code = "OBTAINED_AUTHORIZATION_CODE_FROM_GOOGLE"
 # access_token = get_google_access_token(authorization_code, client_id, client_secret, redirect_uri)
 
